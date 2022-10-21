@@ -17,7 +17,6 @@ import { AiOutlineClose } from 'react-icons/ai';
 import { BsBoxArrowInRight } from 'react-icons/bs';
 import { BiDownArrow } from 'react-icons/bi';
 import Loader from '../../Random/Loader';
-import { useAppContext } from '../../../context/appContext';
 
 const UnauthenticatedHeader = () => {
   const [open, setOpen] = useState(false);
